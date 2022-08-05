@@ -1,0 +1,130 @@
+body{
+    background-color: #E7F6F2;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+#title{
+    text-align: center;
+}
+
+#title .container-fluid{
+    padding: 0 0 0 0;
+}
+
+
+.navbar-brand{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.big-heading{
+    font-size: 2.0rem;
+    line-height: 1.5;
+    padding: 40px 0 0;
+    margin: 0 10% 0 30%;
+}
+
+.big-heading:hover{
+    font-size: 0;
+}
+
+.big-heading:hover:after{
+    content: attr(data-hover);
+    font-size: 2.0rem;
+    line-height: 1.5;
+    padding: 40px 0 0;
+    margin: 0 10% 0 30%;
+    text-align: justify;
+}
+
+.profile-image{
+    width: 50%;
+    right: 30%;
+    padding: 40px 0 40px;
+}
+
+#about{
+    background-color: #A5C9CA;
+}
+
+.about-title{
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.about-box{
+    padding:5%;
+}
+
+.about-paragraph{
+    font-size:1.5rem;
+    text-align: justify;
+}
+
+
+.icon{
+    color: #395B64;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #2C3333;
+}
+
+#skills{
+    background-color: #395B64;
+}
+
+.skills-box{
+    padding:5%
+}
+
+.skills-title{
+    font-size: 2.5rem;
+    color: #2C3333;
+}
+
+#skills .icon{
+    color:#2C3333;
+}
+
+.checked {
+  color: #A5C9CA;
+}
+
+#projects{
+    padding:100px;
+}
+
+.projects-text{
+    font-size: 3rem;
+    line-height:1.5;
+}
+
+.projects-card{
+   padding: 3% 2%;
+}
+
+#footer{
+    background-color:#2C3333;
+    padding: 1%
+}
+
+#footer .icon{
+    color:#A5C9CA;
+    padding: 1% 2% 0 2%;
+}
+
+.copyright{
+    color:#A5C9CA;
+}
+
